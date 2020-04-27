@@ -35,6 +35,15 @@ Pushing pushes the history of a repository to another repository, assuming
 they have compatible histories. We can push a repository by using 'git push',
 generally also including a remote repository location and the branch we are pushing.
 
+6. Cloning
+Cloning allows you to locally replicate a repository from some remote. Cloning is
+fairly easy.  Get the remote path or url, then use the command `git clone <path or url>`
+in the directory you would like to clone it to.
+
+7. Pulling
+Pulling allows you to pull changes from a remote to a local repository with the same
+history. To pull a branch from a remote repository, use 
+`git pull <remote name> <branch name>`
 
 
 
