@@ -29,6 +29,20 @@ public class Person {
 		return "Hello";
 	}
 	
+	// varargs (variable arguments) - same as REST operator in JS
+	// REST looked like this: sayHello(...names);
+	/* Rules for var args - They must be the last argument in the argument list */
+	public void sayHello(String... names) {
+		for(String name : names) {
+			System.out.println("Hello " + name);
+		}
+	}
+	
+	public static void main(String[] args) {
+		Person person = new Person();
+		person.sayHello("Abby", "Billy", "Cindy", "Danny");
+	}
+	
 	/* Creating a constructor - Constructors are special methods invoked when an
 	 * instance of a class is created.  A constructor function is any function which:
 	 * 1. Has the same name as the class

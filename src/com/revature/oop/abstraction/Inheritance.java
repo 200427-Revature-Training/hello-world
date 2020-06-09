@@ -42,5 +42,8 @@ class Dog extends Canine {
 		this.owner = owner;
 	}
 	
+	public void doSomething() {
+	}
+	
 	
 }

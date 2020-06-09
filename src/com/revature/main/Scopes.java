@@ -16,6 +16,9 @@ package com.revature.main;
  * 
  * What is the difference between a static function and a non-static function?
  * 
+ * static - associated with the class (as opposed to an instance of the class)
+ * non-static - Associated with an instance of the class
+ * 
  * Invocation:
  * * Static functions can be invoked without an instance of the class.
  * * Non-static functions must be invoked an instantiated object of that type.
@@ -23,6 +26,9 @@ package com.revature.main;
  * Access to this:
  * * Static functions have no access to the 'this' keyword.
  * * Non-static functions have access to the 'this' keyword.
+ * 
+ * Avoid static functions if possible. General use case for static functions is 
+ * utility functions.
  */
 public class Scopes {
 	public static int myStaticVariable = 5;
