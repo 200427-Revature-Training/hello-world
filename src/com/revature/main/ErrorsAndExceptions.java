@@ -58,7 +58,7 @@ public class ErrorsAndExceptions {
 		y = 3;
 		int[] arr = {1, 2, 3};
 		if(y < arr.length) {
-			x = arr[3];			
+			x = arr[y];			
 		}
 		
 		String myString = Math.random() < 0.5 
