@@ -22,6 +22,21 @@ package com.revature.main;
  * This function is a function that *may* be called when GC collects the object. 
  * Finalize is not always reliable and you should probably avoid using it for any 
  * business need.
+ * 
+ * What is the difference between final, finally, and finalize?
+ * final - 
+ *	
+ *  * Variable Declaration
+ * 		* cannot be reassigned.
+ * 	* Method Signature
+ * 		* Cannot be overridden
+ * 	* Class declaration
+ * 		* Cannot be extended (ex. String)
+ * 
+ * finally - part of try/catch logic, always executed
+ * finalize - A method of the Object class which is called just before the object
+ * 			is garbage collected.
+ * 
  */
 public class GarbageCollection {
 	public static void main(String[] args) {
